@@ -79,7 +79,7 @@ function cargarCarrito() {
 // Inicializar eventos
 document.addEventListener("DOMContentLoaded", () => {
     console.log("Inicializando eventos...");
-    cargarCarrito(); // Llama correctamente a la función cargarCarrito
+    cargarCarrito(); 
     actualizarCarrito();
 
     const btnVaciar = document.getElementById("vaciar-carrito");

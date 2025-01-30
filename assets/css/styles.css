@@ -1,21 +1,33 @@
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    line-height: 1.6;
 }
 
 header nav {
     background-color: #333;
     padding: 1rem;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
 }
 
 header nav a {
     color: white;
-    margin: 0 1rem;
     text-decoration: none;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s ease;
 }
 
+header nav a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+/* Contenedor principal */
 .productos, .carrito {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -27,16 +39,50 @@ header nav a {
     border: 1px solid #ccc;
     padding: 1rem;
     text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
+.producto img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Botones */
 .btn {
     padding: 0.5rem 1rem;
     background-color: #333;
     color: white;
     border: none;
     cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
 }
 
 .btn:hover {
     background-color: #555;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    header nav {
+        flex-direction: column;
+    }
+
+    .productos, .carrito {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    header nav a {
+        font-size: 0.9rem;
+        padding: 0.5rem;
+    }
+
+    .btn {
+        font-size: 0.9rem;
+        padding: 0.5rem 0.8rem;
+    }
 }
