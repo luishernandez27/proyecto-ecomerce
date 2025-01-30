@@ -1,6 +1,6 @@
-#Tienda en Línea - Proyecto de Comercio Electrónico#
+#Tienda en Línea - Proyecto de Comercio Electrónico
 
-Descripción
+##Descripción
 
 Este proyecto es una tienda en línea desarrollada con HTML, CSS y JavaScript, que permite a los usuarios:
 
@@ -12,7 +12,7 @@ Visualizar y gestionar el carrito (añadir, eliminar y vaciar productos).
 
 Ver un diseño completamente responsive adaptado a móviles, tabletas y escritorio.
 
-Tecnologías Utilizadas
+##Tecnologías Utilizadas
 
 HTML5: Estructura del sitio web.
 
@@ -20,7 +20,7 @@ CSS3 (CSS Grid & Flexbox): Diseño y responsividad.
 
 JavaScript (DOM & LocalStorage): Interactividad y almacenamiento de datos.
 
-Funcionalidades
+##Funcionalidades
 
 Navegación:
 
@@ -42,7 +42,7 @@ Diseño Responsive:
 
 Adaptado a distintos tamaños de pantalla mediante media queries.
 
-Instalación y Uso
+##Instalación y Uso
 
 Clonar el repositorio:
 
