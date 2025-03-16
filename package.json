@@ -13,5 +13,8 @@
   },
   "jest": {
     "testEnvironment": "jsdom"
+  },
+  "dependencies": {
+    "express-validator": "^7.2.1"
   }
 }
